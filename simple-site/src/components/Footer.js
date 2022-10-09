@@ -1,4 +1,5 @@
 import React from 'react'
+import { FooterListItem } from './FooterListItem'
 
 export const Footer = () => {
   return (
@@ -24,6 +25,9 @@ export const Footer = () => {
             <FooterListItem />
 
 
+        </div>
+        <div>
+            {/* Socials */}
         </div>
     </div>
   )
